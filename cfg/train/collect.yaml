@@ -1,0 +1,8 @@
+log_dir: "./logs"
+save_dir: "./saves"
+name: "collect"
+
+total_round: 4096
+
+train_manipulation: False
+train_controller: False

@@ -1,0 +1,9 @@
+name: adapose_v4
+task_name: pots
+load: True
+checkpoint_path: models/pose_estimator/AdaPose/checkpoint/pots_direct_reg.pth
+img_size: 224
+use_depth: True
+n_pts: 1024
+direct_regression: True
+real_world: False

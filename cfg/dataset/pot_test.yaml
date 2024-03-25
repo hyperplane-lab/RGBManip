@@ -1,0 +1,12 @@
+name: "partnet_mobility"
+type: "pot"
+dataset_root: <YourDatasetRoot>
+objects:
+  100038_link_0:
+    path: dataset/pots/100038_link_0/mobility.urdf
+  100045_link_0:
+    path: dataset/pots/100045_link_0/mobility.urdf
+  100051_link_0:
+    path: dataset/pots/100051_link_0/mobility.urdf
+  102080_link_0:
+    path: dataset/pots/102080_link_0/mobility.urdf

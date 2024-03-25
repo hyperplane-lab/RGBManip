@@ -1,0 +1,46 @@
+name: "partnet_mobility"
+type: "pot"
+dataset_root: <YourDatasetRoot>
+objects:
+  100015_link_0:
+    path: dataset/pots/100015_link_0/mobility.urdf
+  100017_link_0:
+    path: dataset/pots/100017_link_0/mobility.urdf
+  100021_link_0:
+    path: dataset/pots/100021_link_0/mobility.urdf
+  100023_link_0:
+    path: dataset/pots/100023_link_0/mobility.urdf
+  100025_link_0:
+    path: dataset/pots/100025_link_0/mobility.urdf
+  100028_link_0:
+    path: dataset/pots/100028_link_0/mobility.urdf
+  100032_link_0:
+    path: dataset/pots/100032_link_0/mobility.urdf
+  100033_link_0:
+    path: dataset/pots/100033_link_0/mobility.urdf
+  100040_link_0:
+    path: dataset/pots/100040_link_0/mobility.urdf
+  # 100047_link_0:
+  #   path: dataset/pots/100047_link_0/mobility.urdf
+  100054_link_0:
+    path: dataset/pots/100054_link_0/mobility.urdf
+  100055_link_0:
+    path: dataset/pots/100055_link_0/mobility.urdf  # Not parallel!
+  100056_link_0:
+    path: dataset/pots/100056_link_0/mobility.urdf
+  100057_link_0:
+    path: dataset/pots/100057_link_0/mobility.urdf
+  # 100058_link_0:
+  #   path: dataset/pots/100058_link_0/mobility.urdf
+  100060_link_0:
+    path: dataset/pots/100060_link_0/mobility.urdf
+  # 100613_link_0:
+  #   path: dataset/pots/100613_link_0/mobility.urdf
+  # 100619_link_0:
+  #   path: dataset/pots/100619_link_0/mobility.urdf
+  # 100623_link_0:
+  #   path: dataset/pots/100623_link_0/mobility.urdf
+  # 100693_link_0:
+  #   path: dataset/pots/100693_link_0/mobility.urdf
+  # 102085_link_0:
+  #   path: dataset/pots/102085_link_0/mobility.urdf

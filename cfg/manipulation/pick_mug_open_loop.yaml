@@ -1,0 +1,5 @@
+name: pick_mug
+closed_loop: False
+step_sizes:
+  - 0.1
+  # - 0.13

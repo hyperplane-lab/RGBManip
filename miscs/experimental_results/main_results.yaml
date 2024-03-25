@@ -1,0 +1,44 @@
+Heuristic:
+  Door:
+    Train: 69.5
+    Test: 74.5
+  Drawer:
+    Train: 50.625
+    Test: 59.25
+  Pot:
+    Train: 1.0
+    Test: 1.5
+  Mug:
+    Train: 0.0
+    Test: 0.0
+
+Adapose:
+  Door_Open: # 2023-09-02_01:40:39Split_Cabinet/model_1125.pt
+    Train: 89.25
+    Test: 88.875
+  Door_45:
+    Train: 51.125
+    Test: 52.875
+  Drawer: # 2023-09-01_13:25:15OpenDrawer_Init_PoseRew_BoundaryPenalty_NewEstimator/model_850.pt
+    Train: 83.00
+    Test: 87.0
+  Drawer_30:
+    Train: 63.5
+    Test: 61.875
+  Pot: # 2023-09-01_10:59:12OpenPot/model_1350.pt (Maybe not the best?)
+    Train: 22.75
+    Test: 55.625
+  Mug: # 2023-09-07_17:47:47MugMorePrecise/model_525.pt
+    Train: 48.375
+    Test: 41.875
+
+GroundTruth:
+  Door:
+    Train: (0.00)
+    Test: (0.00)
+  Drawer:
+    Train: (0.00)
+    Test: (0.00)
+  Pot:
+    Train: (0.00)
+    Test: (0.00)

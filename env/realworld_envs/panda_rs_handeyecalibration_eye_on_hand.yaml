@@ -1,0 +1,40 @@
+parameters:
+  eye_on_hand: true
+  freehand_robot_movement: false
+  move_group: panda_arm
+  move_group_namespace: /
+  namespace: /panda_rs_handeyecalibration_eye_on_hand/
+  robot_base_frame: panda_link0
+  robot_effector_frame: panda_hand_tcp
+  tracking_base_frame: camera_color_frame
+  tracking_marker_frame: camera_marker
+transformation:
+  qw: 0.7081374877457951
+  qx: 0.006027548507685216
+  qy: 0.00689162640316221
+  qz: 0.7060152070554716
+  x: 0.07279950210000039
+  y: -0.033096014612891786
+  z: 0.06040634951408137
+
+# TCP
+# translation: 
+#   x: 0.06301070147038353
+#   y: -0.03401436290920782
+#   z: -0.04524327998194331
+# rotation: 
+#   x: 0.009124544829899064
+#   y: 0.012592267854170003
+#   z: 0.7130667150162096
+#   w: 0.700923702986229
+
+# PANDA_HAND
+# translation: 
+#   x: 0.07279950210000039
+#   y: -0.033096014612891786
+#   z: 0.06040634951408137
+# rotation: 
+#   x: 0.006027548507685216
+#   y: 0.00689162640316221
+#   z: 0.7060152070554716
+#   w: 0.7081374877457951

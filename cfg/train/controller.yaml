@@ -1,0 +1,8 @@
+log_dir: "./logs"
+save_dir: "./saves"
+name: "train"
+train_manipulation: False
+train_controller: True
+iterations_per_epoch: 600
+log_interval: 1
+save_interval: 25

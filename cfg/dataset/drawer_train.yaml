@@ -1,0 +1,304 @@
+name: "partnet_mobility"
+dataset_root: <YourDatasetRoot>
+objects:
+  40147_link_1:
+    boundingBox: dataset/one_drawer_cabinet/40147_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/40147_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/40147_link_1/handle.yaml
+    name: 40147_link_1
+    path: dataset/one_drawer_cabinet/40147_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/40147_link_1/point_sample/ply-10000.ply
+  41083_link_2:
+    boundingBox: dataset/one_drawer_cabinet/41083_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/41083_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/41083_link_2/handle.yaml
+    name: 41083_link_2
+    path: dataset/one_drawer_cabinet/41083_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/41083_link_2/point_sample/ply-10000.ply
+  41083_link_3:
+    boundingBox: dataset/one_drawer_cabinet/41083_link_3/bounding_box.json
+    door: dataset/one_drawer_cabinet/41083_link_3/door.yaml
+    handle: dataset/one_drawer_cabinet/41083_link_3/handle.yaml
+    name: 41083_link_3
+    path: dataset/one_drawer_cabinet/41083_link_3/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/41083_link_3/point_sample/ply-10000.ply
+  44781_link_2:
+    boundingBox: dataset/one_drawer_cabinet/44781_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/44781_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/44781_link_2/handle.yaml
+    name: 44781_link_2
+    path: dataset/one_drawer_cabinet/44781_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/44781_link_2/point_sample/ply-10000.ply
+  44826_link_1:
+    boundingBox: dataset/one_drawer_cabinet/44826_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/44826_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/44826_link_1/handle.yaml
+    name: 44826_link_1
+    path: dataset/one_drawer_cabinet/44826_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/44826_link_1/point_sample/ply-10000.ply
+  45135_link_0:
+    boundingBox: dataset/one_drawer_cabinet/45135_link_0/bounding_box.json
+    door: dataset/one_drawer_cabinet/45135_link_0/door.yaml
+    handle: dataset/one_drawer_cabinet/45135_link_0/handle.yaml
+    name: 45135_link_0
+    path: dataset/one_drawer_cabinet/45135_link_0/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45135_link_0/point_sample/ply-10000.ply
+  45135_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45135_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45135_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45135_link_1/handle.yaml
+    name: 45135_link_1
+    path: dataset/one_drawer_cabinet/45135_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45135_link_1/point_sample/ply-10000.ply
+  45135_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45135_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45135_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45135_link_2/handle.yaml
+    name: 45135_link_2
+    path: dataset/one_drawer_cabinet/45135_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45135_link_2/point_sample/ply-10000.ply
+  45146_link_0:
+    boundingBox: dataset/one_drawer_cabinet/45146_link_0/bounding_box.json
+    door: dataset/one_drawer_cabinet/45146_link_0/door.yaml
+    handle: dataset/one_drawer_cabinet/45146_link_0/handle.yaml
+    name: 45146_link_0
+    path: dataset/one_drawer_cabinet/45146_link_0/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45146_link_0/point_sample/ply-10000.ply
+  45162_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45162_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45162_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45162_link_1/handle.yaml
+    name: 45162_link_1
+    path: dataset/one_drawer_cabinet/45162_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45162_link_1/point_sample/ply-10000.ply
+  45168_link_0:
+    boundingBox: dataset/one_drawer_cabinet/45168_link_0/bounding_box.json
+    door: dataset/one_drawer_cabinet/45168_link_0/door.yaml
+    handle: dataset/one_drawer_cabinet/45168_link_0/handle.yaml
+    name: 45168_link_0
+    path: dataset/one_drawer_cabinet/45168_link_0/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45168_link_0/point_sample/ply-10000.ply
+  45194_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45194_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45194_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45194_link_2/handle.yaml
+    name: 45194_link_2
+    path: dataset/one_drawer_cabinet/45194_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45194_link_2/point_sample/ply-10000.ply
+  45194_link_3:
+    boundingBox: dataset/one_drawer_cabinet/45194_link_3/bounding_box.json
+    door: dataset/one_drawer_cabinet/45194_link_3/door.yaml
+    handle: dataset/one_drawer_cabinet/45194_link_3/handle.yaml
+    name: 45194_link_3
+    path: dataset/one_drawer_cabinet/45194_link_3/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45194_link_3/point_sample/ply-10000.ply
+  45243_link_0:
+    boundingBox: dataset/one_drawer_cabinet/45243_link_0/bounding_box.json
+    door: dataset/one_drawer_cabinet/45243_link_0/door.yaml
+    handle: dataset/one_drawer_cabinet/45243_link_0/handle.yaml
+    name: 45243_link_0
+    path: dataset/one_drawer_cabinet/45243_link_0/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45243_link_0/point_sample/ply-10000.ply
+  45243_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45243_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45243_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45243_link_1/handle.yaml
+    name: 45243_link_1
+    path: dataset/one_drawer_cabinet/45243_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45243_link_1/point_sample/ply-10000.ply
+  45243_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45243_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45243_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45243_link_2/handle.yaml
+    name: 45243_link_2
+    path: dataset/one_drawer_cabinet/45243_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45243_link_2/point_sample/ply-10000.ply
+  45243_link_3:
+    boundingBox: dataset/one_drawer_cabinet/45243_link_3/bounding_box.json
+    door: dataset/one_drawer_cabinet/45243_link_3/door.yaml
+    handle: dataset/one_drawer_cabinet/45243_link_3/handle.yaml
+    name: 45243_link_3
+    path: dataset/one_drawer_cabinet/45243_link_3/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45243_link_3/point_sample/ply-10000.ply
+  45290_link_0:
+    boundingBox: dataset/one_drawer_cabinet/45290_link_0/bounding_box.json
+    door: dataset/one_drawer_cabinet/45290_link_0/door.yaml
+    handle: dataset/one_drawer_cabinet/45290_link_0/handle.yaml
+    name: 45290_link_0
+    path: dataset/one_drawer_cabinet/45290_link_0/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45290_link_0/point_sample/ply-10000.ply
+  45290_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45290_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45290_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45290_link_1/handle.yaml
+    name: 45290_link_1
+    path: dataset/one_drawer_cabinet/45290_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45290_link_1/point_sample/ply-10000.ply
+  45290_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45290_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45290_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45290_link_2/handle.yaml
+    name: 45290_link_2
+    path: dataset/one_drawer_cabinet/45290_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45290_link_2/point_sample/ply-10000.ply
+  45427_link_0:
+    boundingBox: dataset/one_drawer_cabinet/45427_link_0/bounding_box.json
+    door: dataset/one_drawer_cabinet/45427_link_0/door.yaml
+    handle: dataset/one_drawer_cabinet/45427_link_0/handle.yaml
+    name: 45427_link_0
+    path: dataset/one_drawer_cabinet/45427_link_0/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45427_link_0/point_sample/ply-10000.ply
+  45427_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45427_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45427_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45427_link_1/handle.yaml
+    name: 45427_link_1
+    path: dataset/one_drawer_cabinet/45427_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45427_link_1/point_sample/ply-10000.ply
+  45427_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45427_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45427_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45427_link_2/handle.yaml
+    name: 45427_link_2
+    path: dataset/one_drawer_cabinet/45427_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45427_link_2/point_sample/ply-10000.ply
+  45575_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45575_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45575_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45575_link_1/handle.yaml
+    name: 45575_link_1
+    path: dataset/one_drawer_cabinet/45575_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45575_link_1/point_sample/ply-10000.ply
+  45636_link_3:
+    boundingBox: dataset/one_drawer_cabinet/45636_link_3/bounding_box.json
+    door: dataset/one_drawer_cabinet/45636_link_3/door.yaml
+    handle: dataset/one_drawer_cabinet/45636_link_3/handle.yaml
+    name: 45636_link_3
+    path: dataset/one_drawer_cabinet/45636_link_3/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45636_link_3/point_sample/ply-10000.ply
+  45661_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45661_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45661_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45661_link_1/handle.yaml
+    name: 45661_link_1
+    path: dataset/one_drawer_cabinet/45661_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45661_link_1/point_sample/ply-10000.ply
+  45661_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45661_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45661_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45661_link_2/handle.yaml
+    name: 45661_link_2
+    path: dataset/one_drawer_cabinet/45661_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45661_link_2/point_sample/ply-10000.ply
+  45677_link_0:
+    boundingBox: dataset/one_drawer_cabinet/45677_link_0/bounding_box.json
+    door: dataset/one_drawer_cabinet/45677_link_0/door.yaml
+    handle: dataset/one_drawer_cabinet/45677_link_0/handle.yaml
+    name: 45677_link_0
+    path: dataset/one_drawer_cabinet/45677_link_0/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45677_link_0/point_sample/ply-10000.ply
+  45677_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45677_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45677_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45677_link_1/handle.yaml
+    name: 45677_link_1
+    path: dataset/one_drawer_cabinet/45677_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45677_link_1/point_sample/ply-10000.ply
+  45677_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45677_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45677_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45677_link_2/handle.yaml
+    name: 45677_link_2
+    path: dataset/one_drawer_cabinet/45677_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45677_link_2/point_sample/ply-10000.ply
+  45677_link_3:
+    boundingBox: dataset/one_drawer_cabinet/45677_link_3/bounding_box.json
+    door: dataset/one_drawer_cabinet/45677_link_3/door.yaml
+    handle: dataset/one_drawer_cabinet/45677_link_3/handle.yaml
+    name: 45677_link_3
+    path: dataset/one_drawer_cabinet/45677_link_3/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45677_link_3/point_sample/ply-10000.ply
+  45687_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45687_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45687_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45687_link_1/handle.yaml
+    name: 45687_link_1
+    path: dataset/one_drawer_cabinet/45687_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45687_link_1/point_sample/ply-10000.ply
+  45746_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45746_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45746_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45746_link_1/handle.yaml
+    name: 45746_link_1
+    path: dataset/one_drawer_cabinet/45746_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45746_link_1/point_sample/ply-10000.ply
+  45746_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45746_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45746_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45746_link_2/handle.yaml
+    name: 45746_link_2
+    path: dataset/one_drawer_cabinet/45746_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45746_link_2/point_sample/ply-10000.ply
+  45784_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45784_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45784_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45784_link_1/handle.yaml
+    name: 45784_link_1
+    path: dataset/one_drawer_cabinet/45784_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45784_link_1/point_sample/ply-10000.ply
+  45841_link_1:
+    boundingBox: dataset/one_drawer_cabinet/45841_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/45841_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/45841_link_1/handle.yaml
+    name: 45841_link_1
+    path: dataset/one_drawer_cabinet/45841_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45841_link_1/point_sample/ply-10000.ply
+  45841_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45841_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45841_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45841_link_2/handle.yaml
+    name: 45841_link_2
+    path: dataset/one_drawer_cabinet/45841_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45841_link_2/point_sample/ply-10000.ply
+  45841_link_3:
+    boundingBox: dataset/one_drawer_cabinet/45841_link_3/bounding_box.json
+    door: dataset/one_drawer_cabinet/45841_link_3/door.yaml
+    handle: dataset/one_drawer_cabinet/45841_link_3/handle.yaml
+    name: 45841_link_3
+    path: dataset/one_drawer_cabinet/45841_link_3/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45841_link_3/point_sample/ply-10000.ply
+  45940_link_2:
+    boundingBox: dataset/one_drawer_cabinet/45940_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/45940_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/45940_link_2/handle.yaml
+    name: 45940_link_2
+    path: dataset/one_drawer_cabinet/45940_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/45940_link_2/point_sample/ply-10000.ply
+  46060_link_0:
+    boundingBox: dataset/one_drawer_cabinet/46060_link_0/bounding_box.json
+    door: dataset/one_drawer_cabinet/46060_link_0/door.yaml
+    handle: dataset/one_drawer_cabinet/46060_link_0/handle.yaml
+    name: 46060_link_0
+    path: dataset/one_drawer_cabinet/46060_link_0/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/46060_link_0/point_sample/ply-10000.ply
+  46060_link_1:
+    boundingBox: dataset/one_drawer_cabinet/46060_link_1/bounding_box.json
+    door: dataset/one_drawer_cabinet/46060_link_1/door.yaml
+    handle: dataset/one_drawer_cabinet/46060_link_1/handle.yaml
+    name: 46060_link_1
+    path: dataset/one_drawer_cabinet/46060_link_1/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/46060_link_1/point_sample/ply-10000.ply
+  46060_link_2:
+    boundingBox: dataset/one_drawer_cabinet/46060_link_2/bounding_box.json
+    door: dataset/one_drawer_cabinet/46060_link_2/door.yaml
+    handle: dataset/one_drawer_cabinet/46060_link_2/handle.yaml
+    name: 46060_link_2
+    path: dataset/one_drawer_cabinet/46060_link_2/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/46060_link_2/point_sample/ply-10000.ply
+  46060_link_3:
+    boundingBox: dataset/one_drawer_cabinet/46060_link_3/bounding_box.json
+    door: dataset/one_drawer_cabinet/46060_link_3/door.yaml
+    handle: dataset/one_drawer_cabinet/46060_link_3/handle.yaml
+    name: 46060_link_3
+    path: dataset/one_drawer_cabinet/46060_link_3/mobility.urdf
+    pointCloud: dataset/one_drawer_cabinet/46060_link_3/point_sample/ply-10000.ply

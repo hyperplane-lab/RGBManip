@@ -1,0 +1,9 @@
+name: adapose_v5
+task_name: one_drawer_cabinet
+load: True
+checkpoint_path: models/pose_estimator/AdaPose/checkpoint/one_drawer_cabinet.pth
+img_size: 224
+use_depth: True
+n_pts: 1024
+direct_regression: True
+real_world: False

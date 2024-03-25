@@ -1,0 +1,44 @@
+name: open_cabinet_visualize
+robot_root: "assets/panda"
+robot_name: "panda.urdf"
+num_envs: 8
+max_step: 512
+time_step: 0.005
+
+object_conf:
+  init_pose:
+    xyz: [0, 0, 0.5]
+    rot: [1.0, 0, 0, 0]
+  init_dof: [0.0]
+  success_dof: [0.3]
+  randomization:
+    pose:
+      xyz:
+        low: [-0.1, -0.1, 0.5]
+        high: [0.1, 0.1, 0.6]
+      rot:
+        low: -0.1
+        high: 0.1
+    dof:
+      low: [0.0]
+      high: [0.0]
+
+robot_conf:
+  hand_cam_pose:
+    xyz: [0.1, 0, 0.1]
+    rot: [0.70710678, 0, -0.70710678, 0]
+  init_pose:
+    xyz: [-1.0, 0, 0.05]
+    rot: [1.0, 0, 0, 0]
+  init_dof: None
+  randomization:
+    pose:
+      xyz:
+        low: [-1.1, -0.1, 0.05]
+        high: [-0.9, 0.1, 0.05]
+      rot:
+        low: -0.1
+        high: 0.1
+    dof:
+      low: [-0.05, -0.05, -0.05, -0.99248004, -0.05, 1.0705001, -0.05, 0., 0.]
+      high: [0.05, 0.05, 0.05, -0.89248, 0.05, 1.1705, 0.05, 0.04, 0.04]

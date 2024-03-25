@@ -1,0 +1,4 @@
+name: open_drawer
+closed_loop: False
+step_sizes:
+  - 0.5

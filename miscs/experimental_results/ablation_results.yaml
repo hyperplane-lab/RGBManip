@@ -1,0 +1,147 @@
+DistCoef:
+  Cabinet:
+    0.0:
+      Train:
+      Test:
+    0.01: # 2023-09-05_12:44:36NewMovePeriod_Coef0.01/model_550.pt
+      Train: 84.25
+      Test: 82.375
+    0.02:
+      Train:
+      Test:
+    0.03:
+      Train:
+      Test:
+    0.04:
+      Train:
+      Test:
+    0.05: # 2023-09-03_10:07:59NewMovePeriod_Coef0.05/model_3900.pt
+      Train: 66.625
+      Test:
+    0.5:  # 2023-09-03_16:28:47NewMovePeriod_Coef0.5/model_2000.pt
+      Train: 75.375
+      Test: 77.875
+
+DistCoefNew:
+  Cabinet:
+    1.0: 2.014, 1.87, 1.918, 1.865, 1.88 (0.6079, 0.611, 0.5968, 0.6146, 0.6162)
+    0.1: 0.5794, 0.5262, 0.5773, 0.5052, 0.5598 (0.4726, 0.4643, 0.4778, 0.4637, 0.4633)
+    0.01: 0.824, 0.9272, 0.95, 0.9095, 0.9466 (0.492, 0.3822, 0.4385, 0.4063, 0.394)
+    -0.01: 0.3023, 0.5108, 0.4559, 0.3272, 0.5569 (0.4409, 0.4118, 0.4493, 0.4491, 0.4066)
+    -0.1: 1.818, 1.818, 1.818, 1.818, 1.818 (0.443, 0.443, 0.443, 0.443, 0.443)
+    -1.0: 2.039, 2.039, 2.039, 2.039, 2.039 (0.35, 0.35, 0.35, 0.35, 0.35)
+
+OpenLoop:
+  Cabinet:
+    Train: 74.5
+    Test: 74.0
+  Cabinet45:
+    Train: 24.625
+    Test: 29.25
+  Drawer:
+    Train: 68.875
+    Test: 68.375
+  Drawer30:
+    Train: 24.625
+    Test: 29.25
+  Drawer30:
+    Train: 66.625
+    Test: 60.625
+
+ViewNum:
+  Cabinet:
+    1:
+      Train: 69.875 (8.070361)
+      Test: 71.125 (9.759055)
+    2:
+      Train: 83.25 (8.211535)
+      Test: 85.375 (8.914019)
+    3:
+      Train: 86.25 (8.179599)
+      Test: 86.625 (9.188982)
+    4:
+      Train: 85.125 (11.625438)
+      Test: 87.00 (13.706802)
+  Cabinet45:
+    2:
+      Train: 49.75
+      Test: 39.125
+  Drawer:
+    1:
+      Train: 82.375 (7.676725)
+      Test: 83.25 (8.976509)
+    2:
+      Train: 81.0 (8.184131)
+      Test: 85.375 (9.149064)
+    3:
+      Train: 83.5 (8.719014)
+      Test: 87.5 (9.316589)
+    4:
+      Train: 83.0 (14.037972)
+      Test: 87.0 (9.831388)
+  Drawer30:
+    2:
+      Train: 64.75
+      Test: 56.625
+  Pot:
+  Mug:
+    1:
+      Train:
+      Test: 0.0 (2.104183)
+    2:
+      Train:
+      Test: 1.25 (4.777835)
+    3:
+      Train:
+      Test: 40.5 (6.341656)
+    4:
+      Train:
+      Test: 41.875 (8.115523)
+
+DomainRandomization:
+  Cabinet: # 2023-09-07_22:27:40CabinetNoDR/model_600.pt (ada)
+    Train: 66.625
+    Test: 73.00
+  Cabinet45:
+    Train: 32.5
+    Test: 36.375
+  Drawer: # 2023-09-12_07:36:25DrawerNoDR/model_500.pt (ada3)
+    Train: 77.875
+    Test: 77.625
+  Drawer30:
+    Train: 40.625
+    Test: 30.125
+
+PoseTricks:
+  Cabinet: # 2023-09-11_06:49:44CabinetNoTricks/model_800.pt
+    Train: 65.5
+    Test: 36.0
+  Cabinet45:
+    Train:
+    Test: 22.75
+  Drawer: # 2023-09-11_06:49:46DrawerNoTricks/model_800.pt
+    Train: 35.875
+    Test: 42.0
+  Drawer30:
+    Train: 43.0
+    Test: 20.25
+
+Heuristic:
+  Cabinet:
+    Train: 69.5
+    Test: 74.5
+  Cabinet45:
+    Train: 39.375
+    Test: 43.625
+  Drawer:
+    Train: 50.625
+    Test: 59.25
+  Drawer30:
+    Train: 44.625
+    Test: 48.625
+  Pot:
+    Train: 1.0
+    Test: 1.5
+  Mug:
+    Train: 0.0
+    Test: 0.0

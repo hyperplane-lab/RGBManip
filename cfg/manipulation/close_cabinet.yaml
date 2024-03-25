@@ -1,0 +1,9 @@
+name: open_cabinet
+closed_loop: True
+step_sizes:
+  - 0.13
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09

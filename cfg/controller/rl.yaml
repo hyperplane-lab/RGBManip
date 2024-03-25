@@ -1,0 +1,68 @@
+name: "rl"
+
+controller:
+  max_steps: 4
+  action_type: pose #joint or pose
+  pose_min: [-0.3, -0.3, 0.4]
+  pose_max: [0.3, 0.3, 1.0]
+  early_stop: 4
+  # xyz = np.clip(xyz + np.asarray([0, 0, 0.5]), [-0.4, -0.4, 0.2], [0.4, 0.4, 1.2])
+
+reward:
+  # reward coefficients
+  diff_coef: -0.5     # measures the difference between the current and the goal state
+  move_success_coef: 8.0 # measures the success of moving the camera
+  move_period_coef: -0.0 # measures the period of moving the camera
+  far_coef: -2.5      # measures the distance between current camera and comfort zone
+  ori_coef: 0.25      # measures the difference between current and comfort orientation
+  xyz_lookat_coef: -0.05 # reward to limit the length of lookat vector to be 1
+  bbox_coef: -1.0     # making the bbox to stay in the center
+  bbox_boundary_coef: -1.0 # making the bbox to stay in the center
+  have_bbox_coef: 2.0 # make sure the bbox is inside the view
+  center_coef: 12.0    # encourage the pos prediction to be accurate
+  open_coef: 8.0      # encourage the ori prediction to be accurate
+  view_coef: 0.5      # encourage adjacent orientation to be different
+  view_norm_coef: -0.3 # encourage the norm of view weight to be 1
+  success_coef: 0.0 # reward for success, KEEP IT set to 0
+
+policy:
+  actor_critic_class: ActorCritic
+  pi_hid_sizes: [96, 96, 32]
+  vf_hid_sizes: [96, 96, 32]
+  activation: elu
+
+learn :
+  exp_name: PPO
+  reset: True
+  num_transitions_per_env: 16
+  num_transitions_eval: 512 # How many transitions to take in a eval round
+  num_learning_epochs: 8
+  num_mini_batches: 4
+  clip_range: 0.2
+  gamma: 0.98
+  lam: 0.98
+  init_noise_std: 0.6
+  value_loss_coef: 1.0
+  entropy_coef: 0.0
+  learning_rate: 0.00001
+  max_grad_norm: 1.0
+  use_clipped_value_loss: True
+  schedule: adaptive
+  desired_kl: 0.016
+  max_lr: 0.005
+  min_lr: 0.0002
+  device: cuda
+  sampler: sequential
+  log_dir: logs/ppo_controller
+  save_dir: saves/ppo_controller
+  testing: False
+  eval_interval: 64
+  eval_round: 16
+  eval: False
+  print_log: True
+  contrastive: False
+  
+  contrastive_m: 0.99
+  asymmetric: False
+
+load: ""

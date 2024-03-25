@@ -1,0 +1,49 @@
+name: open_drawer
+robot_root: "assets/panda"
+robot_name: "panda.urdf"
+num_envs: 8
+max_step: 512
+time_step: 0.005
+
+object_conf:
+  init_pose:
+    xyz: [0, 0, 0.5]
+    rot: [1.0, 0, 0, 0]
+  init_dof: [0.0]
+  success_dof: [0.30]
+  randomization:
+    rot:
+        low: -0.2
+        high: 0.2
+    pos_angle:
+      low: -0.4
+      high: 0.4
+    dis:
+      low: 0.5
+      high: 0.8
+    height:
+      low: 0.01
+      high: 0.05
+    dof:
+      low: [0.0]
+      high: [0.0]
+
+robot_conf:
+  hand_cam_pose:
+    xyz: [0.1, 0, 0.1]
+    rot: [0.70710678, 0, -0.70710678, 0]
+  init_pose:
+    xyz: [0.0, 0, 0.15]
+    rot: [1.0, 0, 0, 0]
+  init_dof: None
+  randomization:
+    pose:
+      xyz:
+        low: [0.0, 0.0, 0.15]
+        high: [0.0, 0.0, 0.15]
+      rot:
+        low: 0.0
+        high: 0.0
+    dof:
+      low: [-0.025, -0.025, -0.025, -0.99248004, -0.025, 1.0705001, -0.025, 0., 0.]
+      high: [0.025, 0.025, 0.025, -0.89248, 0.025, 1.1705, 0.025, 0.04, 0.04]

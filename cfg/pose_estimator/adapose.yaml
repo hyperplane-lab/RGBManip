@@ -1,0 +1,4 @@
+name: adapose
+load: True
+checkpoint_path: models/pose_estimator/AdaPose/checkpoint/v_model_60.pth
+img_size: 224

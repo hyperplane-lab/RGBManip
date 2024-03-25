@@ -1,0 +1,9 @@
+log_dir: "./logs"
+save_dir: "./saves"
+name: "test_baseline"
+
+train_manipulation: False
+train_controller: False
+
+task_setting_root: ???
+action_path: ???

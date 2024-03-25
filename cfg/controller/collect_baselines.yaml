@@ -1,0 +1,12 @@
+# used to collect data
+name: collection
+
+target: "baselines"
+
+pose_estimator:
+  pose_min: [-0.3, -0.3, 0.4]
+  pose_max: [0.3, 0.3, 1.0]
+
+learn:
+  log_dir: ???
+  save_dir: ???

@@ -1,0 +1,74 @@
+name: "partnet_mobility"
+type: "mug"
+dataset_root: <YourDatasetRoot>
+objects:
+  mug_10c2b3eac377b9084b3c42e318f3affc:
+      path: dataset/mugs/10c2b3eac377b9084b3c42e318f3affc_link_0/mobility.urdf
+  mug_10f6e09036350e92b3f21f1137c3c347:
+      path: dataset/mugs/10f6e09036350e92b3f21f1137c3c347_link_0/mobility.urdf
+  mug_15bd6225c209a8e3654b0ce7754570c8:
+      path: dataset/mugs/15bd6225c209a8e3654b0ce7754570c8_link_0/mobility.urdf
+  mug_1a1c0a8d4bad82169f0594e65f756cf5:
+      path: dataset/mugs/1a1c0a8d4bad82169f0594e65f756cf5_link_0/mobility.urdf
+  mug_1a97f3c83016abca21d0de04f408950f:
+      path: dataset/mugs/1a97f3c83016abca21d0de04f408950f_link_0/mobility.urdf
+  mug_1be6b2c84cdab826c043c2d07bb83fc8:
+      path: dataset/mugs/1be6b2c84cdab826c043c2d07bb83fc8_link_0/mobility.urdf
+  mug_1d18255a04d22794e521eeb8bb14c5b3:
+      path: dataset/mugs/1d18255a04d22794e521eeb8bb14c5b3_link_0/mobility.urdf
+  mug_1eaf8db2dd2b710c7d5b1b70ae595e60:
+      path: dataset/mugs/1eaf8db2dd2b710c7d5b1b70ae595e60_link_0/mobility.urdf
+  mug_1f035aa5fc6da0983ecac81e09b15ea9:
+      path: dataset/mugs/1f035aa5fc6da0983ecac81e09b15ea9_link_0/mobility.urdf
+  mug_24b17537bce40695b3207096ecd79542:
+      path: dataset/mugs/24b17537bce40695b3207096ecd79542_link_0/mobility.urdf
+  mug_28f1e7bc572a633cb9946438ed40eeb9:
+      path: dataset/mugs/28f1e7bc572a633cb9946438ed40eeb9_link_0/mobility.urdf
+  mug_34ae0b61b0d8aaf2d7b20fded0142d7a:
+      path: dataset/mugs/34ae0b61b0d8aaf2d7b20fded0142d7a_link_0/mobility.urdf
+  mug_35ce7ede92198be2b759f7fb0032e59:
+      path: dataset/mugs/35ce7ede92198be2b759f7fb0032e59_link_0/mobility.urdf
+  mug_37f56901a07da69dac6b8e58caf61f95:
+      path: dataset/mugs/37f56901a07da69dac6b8e58caf61f95_link_0/mobility.urdf
+  mug_3c0467f96e26b8c6a93445a1757adf6:
+      path: dataset/mugs/3c0467f96e26b8c6a93445a1757adf6_link_0/mobility.urdf
+  mug_3d1754b7cb46c0ce5c8081810641ef6:
+      path: dataset/mugs/3d1754b7cb46c0ce5c8081810641ef6_link_0/mobility.urdf
+  mug_3d3e993f7baa4d7ef1ff24a8b1564a36:
+      path: dataset/mugs/3d3e993f7baa4d7ef1ff24a8b1564a36_link_0/mobility.urdf
+  mug_43e1cabc5dd2fa91fffc97a61124b1a9:
+      path: dataset/mugs/43e1cabc5dd2fa91fffc97a61124b1a9_link_0/mobility.urdf
+  mug_43f94ba24d2f075c4d32a65fb7bf4ebc:
+      path: dataset/mugs/43f94ba24d2f075c4d32a65fb7bf4ebc_link_0/mobility.urdf
+  mug_44f9c4e1ea3532b8d7b20fded0142d7a:
+      path: dataset/mugs/44f9c4e1ea3532b8d7b20fded0142d7a_link_0/mobility.urdf
+  mug_46ed9dad0440c043d33646b0990bb4a:
+      path: dataset/mugs/46ed9dad0440c043d33646b0990bb4a_link_0/mobility.urdf
+  mug_48e260a614c0fd4434a8988fdcee4fde:
+      path: dataset/mugs/48e260a614c0fd4434a8988fdcee4fde_link_0/mobility.urdf
+  mug_4b7888feea81219ab5f4a9188bfa0ef6:
+      path: dataset/mugs/4b7888feea81219ab5f4a9188bfa0ef6_link_0/mobility.urdf
+  mug_4b8b10d03552e0891898dfa8eb8eefff:
+      path: dataset/mugs/4b8b10d03552e0891898dfa8eb8eefff_link_0/mobility.urdf
+  mug_54f2d6a0b431839c99785666a0fe0255:
+      path: dataset/mugs/54f2d6a0b431839c99785666a0fe0255_link_0/mobility.urdf
+  mug_57f73714cbc425e44ae022a8f6e258a7:
+      path: dataset/mugs/57f73714cbc425e44ae022a8f6e258a7_link_0/mobility.urdf
+  mug_5c48d471200d2bf16e8a121e6886e18d:
+      path: dataset/mugs/5c48d471200d2bf16e8a121e6886e18d_link_0/mobility.urdf
+  mug_5fe74baba21bba7ca4eec1b19b3a18f8:
+      path: dataset/mugs/5fe74baba21bba7ca4eec1b19b3a18f8_link_0/mobility.urdf
+  mug_61c10dccfa8e508e2d66cbf6a91063:
+      path: dataset/mugs/61c10dccfa8e508e2d66cbf6a91063_link_0/mobility.urdf
+  mug_64a9d9f6774973ebc598d38a6a69ad2:
+      path: dataset/mugs/64a9d9f6774973ebc598d38a6a69ad2_link_0/mobility.urdf
+  mug_67b9abb424cf22a22d7082a28b056a5:
+      path: dataset/mugs/67b9abb424cf22a22d7082a28b056a5_link_0/mobility.urdf
+  mug_6c379385bf0a23ffdec712af445786fe:
+      path: dataset/mugs/6c379385bf0a23ffdec712af445786fe_link_0/mobility.urdf
+  mug_6c5ec193434326fd6fa82390eb12174f:
+      path: dataset/mugs/6c5ec193434326fd6fa82390eb12174f_link_0/mobility.urdf
+  mug_6dd59cc1130a426571215a0b56898e5e:
+      path: dataset/mugs/6dd59cc1130a426571215a0b56898e5e_link_0/mobility.urdf
+  mug_6e884701bfddd1f71e1138649f4c219:
+      path: dataset/mugs/6e884701bfddd1f71e1138649f4c219_link_0/mobility.urdf

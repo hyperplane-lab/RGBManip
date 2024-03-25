@@ -1,0 +1,12 @@
+runs
+logs
+saves
+log
+# assets
+outputs
+result.json
+__pycache__
+*/__pycache__
+*/*/__pycache__
+*.pyc
+.vscode

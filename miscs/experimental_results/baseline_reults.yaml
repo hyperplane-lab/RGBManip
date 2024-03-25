@@ -1,0 +1,80 @@
+UMPNet:
+  Cabinet:
+    Train: 27.125
+    Test: 28.125
+  Cabinet 45:
+    Train: 11.0
+    Test: 10.875
+  Drawer:
+    Train: 16.625
+    Test: 18.75
+  Drawer 30:
+    Train: 4.375
+    Test: 5.625
+  Pot:
+    Train: 19.125
+    Test: 36.875
+  Mug:
+    Train: 26.625
+    Test: 22.875
+
+DRQv2:
+  Cabinet:
+    Train: 1.75
+    Test: 2.5
+  Cabinet 45:
+    Train: 0.75
+    Test: 0.75
+  Drawer:
+    Train: 1.875
+    Test: 1.0
+  Drawer 30:
+    Train: 1.375
+    Test: 0.5
+  Pot:
+    Train: 0.125
+    Test: 0.0
+  Mug:
+    Train: 0.0
+    Test: 0.0
+
+Flowbot:
+  Cabinet:
+    Train: 19.5
+    Test: 20.375
+  Cabinet 45:
+    Train: 6.75
+    Test: 6.375
+  Drawer:
+    Train: 27.25
+    Test: 25.75
+  Drawer 30:
+    Train: 16.875
+    Test: 11.25
+  Pot:
+    Train: 2.5
+    Test: 7.375
+  Mug:
+    Train: 3.875
+    Test: 4.25
+
+Where2Act:
+  Cabinet:
+    Train: 8.0
+    Test: 7.0
+  Cabinet 45:
+    Train: 1.75
+    Test: 2.0
+  Drawer:
+    Train: 5.875
+    Test: 7.5
+  Drawer 30:
+    Train: 1.125
+    Test: 0.625
+  Pot:
+    Train: 30.0
+    Test: 55.25
+  Mug:
+    Train: 20.875
+    Test: 19.625
+

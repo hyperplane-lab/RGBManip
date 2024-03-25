@@ -1,0 +1,4 @@
+name: open_pot
+closed_loop: True
+step_sizes:
+  - 0.06

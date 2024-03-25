@@ -1,0 +1,34 @@
+name: "partnet_mobility"
+type: "mug"
+dataset_root: <YourDatasetRoot>
+objects:
+  mug_6faf1f04bde838e477f883dde7397db2:
+      path: dataset/mugs/6faf1f04bde838e477f883dde7397db2_link_0/mobility.urdf
+  mug_73b8b6456221f4ea20d3c05c08e26f:
+      path: dataset/mugs/73b8b6456221f4ea20d3c05c08e26f_link_0/mobility.urdf
+  mug_79e673336e836d1333becb3a9550cbb1:
+      path: dataset/mugs/79e673336e836d1333becb3a9550cbb1_link_0/mobility.urdf
+  mug_7a8ea24474846c5c2f23d8349a133d2b:
+      path: dataset/mugs/7a8ea24474846c5c2f23d8349a133d2b_link_0/mobility.urdf
+  mug_7d282cc3cedd40c8b5c4f4801d3aada:
+      path: dataset/mugs/7d282cc3cedd40c8b5c4f4801d3aada_link_0/mobility.urdf
+  mug_7d6baadd51d0703455da767dfc5b748e:
+      path: dataset/mugs/7d6baadd51d0703455da767dfc5b748e_link_0/mobility.urdf
+  mug_83b41d719ea5af3f4dcd1df0d0a62a93:
+      path: dataset/mugs/83b41d719ea5af3f4dcd1df0d0a62a93_link_0/mobility.urdf
+  mug_8aed972ea2b4a9019c3814eae0b8d399:
+      path: dataset/mugs/8aed972ea2b4a9019c3814eae0b8d399_link_0/mobility.urdf
+  mug_8b1dca1414ba88cb91986c63a4d7a99a:
+      path: dataset/mugs/8b1dca1414ba88cb91986c63a4d7a99a_link_0/mobility.urdf
+  mug_8b780e521c906eaf95a4f7ae0be930ac:
+      path: dataset/mugs/8b780e521c906eaf95a4f7ae0be930ac_link_0/mobility.urdf
+  mug_8f6c86feaa74698d5c91ee20ade72edc:
+      path: dataset/mugs/8f6c86feaa74698d5c91ee20ade72edc_link_0/mobility.urdf
+  mug_9af98540f45411467246665d3d3724c:
+      path: dataset/mugs/9af98540f45411467246665d3d3724c_link_0/mobility.urdf
+  mug_9c930a8a3411f069e7f67f334aa9295c:
+      path: dataset/mugs/9c930a8a3411f069e7f67f334aa9295c_link_0/mobility.urdf
+  mug_9d8c711750a73b06ad1d789f3b2120d0:
+      path: dataset/mugs/9d8c711750a73b06ad1d789f3b2120d0_link_0/mobility.urdf
+  mug_9fc96d41ec7a66a6a159545213d74ea:
+      path: dataset/mugs/9fc96d41ec7a66a6a159545213d74ea_link_0/mobility.urdf
