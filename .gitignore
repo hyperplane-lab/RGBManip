@@ -12,3 +12,4 @@ __pycache__
 .vscode
 models/pose_estimator/AdaPose/checkpoint
 downloads/*
+imgui.ini
