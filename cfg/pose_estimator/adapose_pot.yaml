@@ -1,7 +1,7 @@
 name: adapose_v5
 task_name: pots
 load: True
-checkpoint_path: models/pose_estimator/AdaPose/checkpoint/pots.pth
+checkpoint_path: downloads/pose_estimator/pot.pth
 img_size: 224
 use_depth: True
 n_pts: 1024

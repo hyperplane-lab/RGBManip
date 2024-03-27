@@ -1,4 +1,0 @@
-name: adapose_v3
-load: True
-checkpoint_path: models/pose_estimator/AdaPose/checkpoint/with_depth/v_model.pth
-img_size: 224

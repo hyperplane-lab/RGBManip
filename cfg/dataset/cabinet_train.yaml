@@ -1,5 +1,5 @@
 name: "partnet_mobility"
-dataset_root: <YourDatasetRoot>
+dataset_root: downloads
 objects:
   44781_link_0:
     boundingBox: dataset/one_door_cabinet/44781_link_0/bounding_box.json

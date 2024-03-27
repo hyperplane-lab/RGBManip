@@ -11,3 +11,4 @@ __pycache__
 *.pyc
 .vscode
 models/pose_estimator/AdaPose/checkpoint
+downloads/*

@@ -1,4 +1,0 @@
-name: adapose_v2
-load: True
-checkpoint_path: models/pose_estimator/AdaPose/checkpoint/model_0522_newdata.pth
-img_size: 224

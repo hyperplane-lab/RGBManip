@@ -1,6 +1,6 @@
 name: "partnet_mobility"
 type: "pot"
-dataset_root: <YourDatasetRoot>
+dataset_root: downloads
 objects:
   100015_link_0:
     path: dataset/pots/100015_link_0/mobility.urdf

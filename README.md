@@ -6,11 +6,15 @@ Install dependencies using `pip install -r requirements.txt`. The instalation is
 
 ## Download Dataset and Checkpoints
 
-First, the dataset can be downloaded from [google drive](https://drive.google.com/file/d/154g8SzGFWOcLLjes40aTXFoREX47-ZPk/view?usp=sharing). Download it and decompress it. Then modify the `dataset_root` term in each `cfg/dataset/<task>.yaml` to make RGBManip able to find your dataset.
+We provided scripts to fully automate dataset and checkpoint downloading from google drive. Just run `sh install.sh` to do the stuff and wait. The total file size to download is around 1GB.
 
-Second, download checkpoints for Pose Estimator from [google drive](https://drive.google.com/drive/folders/1fJ5U8_EppGMrTnhxkFYxN4EH-i79pAdG?usp=sharing), and move all four checkpoints into `models/pose_estimator/Adapose/checkpoint`.
+You can also manually download them following the steps:
 
+First, the dataset can be downloaded from [google drive](https://drive.google.com/file/d/154g8SzGFWOcLLjes40aTXFoREX47-ZPk/view?usp=sharing). Download it and decompress it into `downloads/dataset`
 
+Second, download checkpoints for Pose Estimator from [google drive](https://drive.google.com/drive/folders/1WshZaRVllWxHfUFK1--e1hQd_64dAKMz?usp=sharing), and move all four checkpoints into `downloads/pose_estimator/<name>.pth`.
+
+Third, download checkpoints for Global Scheduling Policy from [google drive](https://drive.google.com/drive/folders/1YMI38jeLkPJQa_HJ-RnbQV36zPk4_OvH?usp=sharing), and save all checkpoints into `downloads/global_sheduling_policy/<name_0>.pt`. Notice the `_0` is necessary since our code examines this number.
 
 ## Run Experiments
 
@@ -40,9 +44,7 @@ Possible options include:
   - real_world
 - pose_extimator:
   - adapose_cabinet
-  - adapose_cabinet_baseline
   - adapose_drawer
-  - adapose_drawer_baseline
   - adapose_mug
   - adapose_pot
   - ground_truth

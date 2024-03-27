@@ -1,7 +1,7 @@
 name: adapose_v5
 task_name: mugs
 load: True
-checkpoint_path: models/pose_estimator/AdaPose/checkpoint/mugs.pth
+checkpoint_path: downloads/pose_estimator/mug.pth
 img_size: 224
 use_depth: True
 n_pts: 1024

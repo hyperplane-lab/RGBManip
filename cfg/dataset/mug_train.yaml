@@ -1,6 +1,6 @@
 name: "partnet_mobility"
 type: "mug"
-dataset_root: <YourDatasetRoot>
+dataset_root: downloads
 objects:
   mug_10c2b3eac377b9084b3c42e318f3affc:
       path: dataset/mugs/10c2b3eac377b9084b3c42e318f3affc_link_0/mobility.urdf
