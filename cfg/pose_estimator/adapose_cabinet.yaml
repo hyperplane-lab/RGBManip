@@ -1,7 +1,7 @@
 name: adapose_v5
 task_name: one_door_cabinet
 load: True
-checkpoint_path: downloads/pose_estimator/cabinet.pth
+checkpoint_path: downloads/pose_estimator/one_door_cabinet.pth
 img_size: 224
 use_depth: True
 n_pts: 1024
