@@ -14,7 +14,7 @@ First, the dataset can be downloaded from [google drive](https://drive.google.co
 
 Second, download checkpoints for Pose Estimator from [google drive](https://drive.google.com/drive/folders/1WshZaRVllWxHfUFK1--e1hQd_64dAKMz?usp=sharing), and move all four checkpoints into `downloads/pose_estimator/<name>.pth`.
 
-Third, download checkpoints for Global Scheduling Policy from [google drive](https://drive.google.com/drive/folders/1YMI38jeLkPJQa_HJ-RnbQV36zPk4_OvH?usp=sharing), and save all checkpoints into `downloads/global_sheduling_policy/<name_0>.pt`. Notice the `_0` is necessary since our code examines this number.
+Third, download checkpoints for Global Scheduling Policy from [google drive](https://drive.google.com/drive/folders/1YMI38jeLkPJQa_HJ-RnbQV36zPk4_OvH?usp=sharing), and save all checkpoints into `downloads/global_sheduling_policy/<name>_0.pt`. Notice the `_0` is necessary since our code examines this number.
 
 ## Run Experiments
 
