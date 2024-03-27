@@ -78,3 +78,16 @@ All other configurations can be modified using the [hydra](https://hydra.cc/docs
 ## Miscs
 
 The scripts for drawing the plots included in our paper is also provided in `miscs/plot`.
+
+## Citations
+
+To cite us at
+
+```latex
+@article{an2023rgbmanip,
+  title={RGBManip: Monocular Image-based Robotic Manipulation through Active Object Pose Estimation},
+  author={An, Boshi and Geng, Yiran and Chen, Kai and Li, Xiaoqi and Dou, Qi and Dong, Hao},
+  journal={arXiv preprint arXiv:2310.03478},
+  year={2023}
+}
+```
