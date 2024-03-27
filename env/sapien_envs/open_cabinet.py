@@ -3,7 +3,6 @@ from ..base_sapien_env import BaseEnv
 from sapien.core import renderer as R
 import sapien.core as sapien
 import numpy as np
-from PIL import Image, ImageColor
 import mplib
 import os
 from utils.transform import *

@@ -419,6 +419,13 @@ class BaseManipulationEnv(BaseEnv):
             self.last_action_pose = pose
         self.total_move_distance += np.linalg.norm(self.last_action_pose.p - pose.p)
 
+        # For different versions of mplib, interface differs
+        if hasattr(self.path_planner, "plan") :
+            planner_method = self.path_planner.plan
+        else :
+            planner_method = self.path_planner.plan_qpos_to_pose
+
+
         if skip_move :
 
             if planner == "ik" :
@@ -428,7 +435,7 @@ class BaseManipulationEnv(BaseEnv):
 
             elif planner == "path" :
 
-                result = self.path_planner.plan(
+                result = planner_method(
                     np.concatenate((target_to_robot.p, target_to_robot.q)),
                     self.robot.get_qpos(),
                     time_step=self.time_step,
@@ -501,7 +508,7 @@ class BaseManipulationEnv(BaseEnv):
                 # for point in points :
                 #     self._draw_point(point, size=0.01, name="target")
                 self.path_planner.update_point_cloud(points)
-                result = self.path_planner.plan(
+                result = planner_method(
                     np.concatenate((target_to_robot.p, target_to_robot.q)),
                     self.robot.get_qpos(),
                     time_step=self.time_step,
