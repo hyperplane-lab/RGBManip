@@ -143,6 +143,6 @@ trimesh==3.21.0
 sapien==2.2.1
 six==1.16.0
 gym==0.26.2
-mplib
+mplib==0.0.8
 ujson==5.7.0
 ipdb

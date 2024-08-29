@@ -4,6 +4,8 @@
 
 Install dependencies using `pip install -r requirements.txt`. The instalation is tested with `setuptools==65.6.3`. Some later versions may not be compatible.
 
+*Potential Dependency Inssues:* Users have reported `Module not Found` error with mplib. This project is developed when the newest version of mplib is `mplib==0.0.8`. Newer versions if mplib may not be compatible with this project. We recommend using `mplib<=0.1.0`
+
 ## Download Dataset and Checkpoints
 
 We provided scripts to fully automate dataset and checkpoint downloading from google drive. Just run `sh install.sh` to do the stuff and wait. The total file size to download is around 1GB.
